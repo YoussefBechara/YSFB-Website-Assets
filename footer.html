@@ -25,7 +25,17 @@
       padding: 0;
       box-sizing: border-box;
     }
+
+    ::selection {
+      background-color: #ff0000; /* Red highlight */
+      color: white; /* Optional: change text color for better visibility */
+    }
     
+    /* For Firefox */
+    ::-moz-selection {
+      background-color: #ff0000;
+      color: white;
+    }
     body {
       font-family: 'Inter', sans-serif;
       background-color: transparent;
